@@ -1,0 +1,91 @@
+----
+ * Hit Alt-F10.
+
+--> Panel main menu should be activated. The shortcut key F10 is changed to Alt-F10 now (lp:878492)
+
+----
+ * Open any indicator menu
+
+--> Verify menu shows correctly and there are no scroll arrows (lp:913237)
+
+----
+ * Hit super key to Open Dash.
+
+--> Verify top panel is transparent
+----
+ * Have a two monitor setup in a side by side configuration
+ * Open a program and move its window to the rightmost monitor
+ * Make sure that window is the active one
+ * Click on the indicators in the panel of the rightmost monitor
+ * While the indicators menu is open, move the mouse to the left over the menu area of the rightmost monitor
+
+--> Verify menu appears
+
+----
+ * Launch a program that creates problems to unity-2d-panel (in my case tdriver_visualizer)
+--> Verify the panel is not empty (should say TDriver Visualizer bla bla)
+
+----
+ * Have no application windows open
+ * Verify 'Ubuntu Desktop' caption is displayed on the panel
+ * Move mouse over over it.
+ * Verify desktop menu is displayed, containing subset of Nautilus menu items + special items (e.g. Edit > Change Desktop Background).
+ * Open an application
+ * Verify that application menu replaces desktop menu when application has focus.
+ * Click on the desktop.
+ * Verify that desktop menu is available again when mouse is over it.
+----
+ * Have two monitors of exact same resolution side by side
+ * Have launcher set in autohide mode
+ * Get a firefox window to occupy the total width of the two screens
+ * Open a menu item in the first screen
+ * Verify the menu shows in the first screen and not in the second
+----
+ * Open a window fullscreen (e.g. firefox)
+ * Go to the panel and press and hold the [x] button and be sure not to move the mouse
+ * Press the Print Screen key on the keyboard
+ * See how the "Save Screenshot" app appears
+ * See how the [x] button in the panel disappears
+ * Release the mouse button
+ * Verify the "Save Screenshot" app does not close
+----
+ * Open a window fullscreen (e.g. firefox)
+ * Go to the panel and double click the middle mouse button
+ * Verify the fullscreen window stays maximized
+----
+ * Have two monitors
+ * Maximize one window
+ * Double click the panel in the monitor that does not contain the window
+ * Verify the window stays maximized
+----
+ * Have two monitors
+ * Maximize one window
+ * Press and drag the mouse in the panel in the monitor that does not contain the window
+ * Verify the window stays unaffected
+----
+ * Have two monitors
+ * Maximize one window in each monitor
+ * Give focus to windown in monitor 1
+ * Click in the panel of monitor 2 
+ * Verify the window from monitor 2 gets the focus
+----
+ * Have two monitors
+ * Maximize one window in each monitor
+ * Give focus to windown in monitor 1
+ * Press and drag the mouse in the panel of monitor 2 (has the window without focus)
+ * Verify the window from monitor 2 gets the focus and starts to be dragged
+----
+ * Have two windows in one monitor
+ * Maximize one window
+ * Give focus to unmaximized one
+ * Click in the panel (not in window label nor menus)
+ * Verify focus goes to the maximized window
+----
+ * Add 'pidgin' to /desktop/unity/panel/systray-whitelist in dconf-editor
+ * Start pidgin
+ * Verify the systray icon of pidgin appears in the panel
+----
+ * Compile simple test program from bug #850017
+ * Verify the Disabled menu can not be opened by clicking on it
+ * Verify the Disabled menu can not be opened by clicking on the Enabled menu and then moving the mouse over to the Disabled one
+----

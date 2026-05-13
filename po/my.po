@@ -1,0 +1,147 @@
+# Burmese translation for unity-2d
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the unity-2d package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: unity-2d\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-04-10 10:59+0100\n"
+"PO-Revision-Date: 2012-08-16 09:40+0000\n"
+"Last-Translator: Pyae Sone <Unknown>\n"
+"Language-Team: Burmese <my@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2013-05-15 05:44+0000\n"
+"X-Generator: Launchpad (build 16617)\n"
+
+#: shell/launcher/LauncherList.qml:90
+#, qt-format
+msgid "%1 window opened"
+msgid_plural "%1 windows opened"
+msgstr[0] ""
+msgstr[1] ""
+
+#: shell/launcher/LauncherList.qml:93
+msgid "not running"
+msgstr "not running"
+
+#: shell/hud/Hud.qml:211
+msgid "Type your Command"
+msgstr "သင်၏ Command ကိုရိုက်ပါ။"
+
+#: shell/hud/Hud.qml:212
+msgid "Error: HUD service not connected"
+msgstr "Error: HUD service မချိတ်ဆက်မိပါ။"
+
+#: shell/dash/FilterPane.qml:71
+msgid "Filter results"
+msgstr "အဖြေများကို ကန့်သတ်မည်။"
+
+#: shell/dash/FilterLoader.qml:38
+#, qt-format
+msgid "Filter %1 active"
+msgstr "Filter %1 active"
+
+#: shell/dash/FilterLoader.qml:40
+#, qt-format
+msgid "Filter %1 inactive"
+msgstr "Filter %1 inactive"
+
+#: shell/dash/FilterLoader.qml:86 shell/dash/FilterLoader.qml:92
+msgid "All"
+msgstr "အားလုံး"
+
+#: shell/dash/Dash.qml:338 libunity-2d-private/src/lenses.cpp:45
+msgid "Search"
+msgstr "ရှာဖွေရန်"
+
+#: shell/dash/CategoryHeader.qml:37
+msgid "not expanded"
+msgstr "not expanded"
+
+#: shell/dash/CategoryHeader.qml:37
+msgid "expanded"
+msgstr "expanded"
+
+#: shell/dash/CategoryHeader.qml:93
+#, qt-format
+msgid "See %1 more result"
+msgid_plural "See %1 more results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: shell/dash/CategoryHeader.qml:95
+msgid "See fewer results"
+msgstr "ရလဒ် နည်းနည်းသာ ကြည့်မယ်"
+
+#: shell/dash/Home.qml:82
+msgid "Shortcuts"
+msgstr "အတိုကောက်"
+
+#: libunity-2d-private/src/launcherdevice.cpp:279
+msgid "Eject"
+msgstr "ထုတ်ပါ။"
+
+#: libunity-2d-private/src/launcherdevice.cpp:287
+msgid "Safely remove"
+msgstr "သေချာစွာဖြုတ်မည်။"
+
+#: libunity-2d-private/src/application.cpp:1000
+msgid "Lock to Launcher"
+msgstr "Lock to Launcher"
+
+#: libunity-2d-private/src/application.cpp:1000
+msgid "Unlock from Launcher"
+msgstr "Unlock from Launcher"
+
+#: libunity-2d-private/src/application.cpp:1007
+msgid "Quit"
+msgstr "ထွက်"
+
+#: libunity-2d-private/src/bfb.cpp:69
+msgid "Dash home"
+msgstr "Dash home"
+
+#. TRANSLATORS: This refers to the direction of text
+#. (left-to-right or right-to-left): possible values are LTR or RTL
+#: libunity-2d-private/src/unity2dapplication.cpp:173
+msgid "QT_LAYOUT_DIRECTION"
+msgstr ""
+
+#: libunity-2d-private/src/lenses.cpp:45
+msgid "Home"
+msgstr "ပင်မ"
+
+#: libunity-2d-private/src/lenses.cpp:45
+msgid "Home screen"
+msgstr "Home screen"
+
+#: libunity-2d-private/src/trash.cpp:134
+msgid "Trash"
+msgstr "အမှိုက်ပုံး"
+
+#: libunity-2d-private/src/trash.cpp:214
+#, c-format, qt-plural-format
+msgid "%n item in trash"
+msgid_plural "%n items in trash"
+msgstr[0] "ပစ္စည်း %n ခု အမှိုက်ပုံးထဲတွင် ရှိနေသည်"
+
+#: libunity-2d-private/src/trash.cpp:221
+msgid "Empty Trash"
+msgstr "အမှိုက်ပုံးရှင်းပါ"
+
+#: libunity-2d-private/src/lens.cpp:348
+msgid "Sorry, there is nothing that matches your search."
+msgstr "ဆောရီး၊ သင်၏ရှာဖွေမူနှင့်တူညီတာဘာမှမရှိပါ။"
+
+#: libunity-2d-private/src/workspaces.cpp:79
+msgid "Workspaces"
+msgstr "အလုပ်နေရာ"
+
+#: panel/applets/appname/appnameapplet.cpp:368
+msgid "Ubuntu Desktop"
+msgstr "Ubuntu Desktop"
